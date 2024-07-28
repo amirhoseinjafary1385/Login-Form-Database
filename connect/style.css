@@ -1,0 +1,17 @@
+*{
+    direction: rtl;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#welcome-message {
+    display: flex; /* مخفی کردن پیام خوش آمدید */
+    margin-top: 20px;
+    font-size: 44px;
+
+}
